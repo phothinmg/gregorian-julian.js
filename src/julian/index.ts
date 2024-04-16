@@ -7,6 +7,11 @@
  * @param month - The month of the date.
  * @param day - The day of the date.
  * @returns The calculated Julian Day for the given date.
+ * 
+ * @example
+ * 
+ * const julianDay = toJD(2022, 10, 15);
+   console.log(julianDay); // Output: 2459867.5
  */
 export default function toJD(year: number, month: number, day: number): number {
   const isInt = (n: number)=>{

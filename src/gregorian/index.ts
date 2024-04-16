@@ -8,10 +8,10 @@ import ifnav from "../ifnav";
  * @returns An object containing the year, month, day, hour, minute, and second of the Gregorian date and time at UT.
  *
  * @example
- * const jd = 2459345.5;
+ * const jd = 2459449.5;
  * const result = toGregorian(jd);
- * console.log(result);
- * // Output: { year: 2021, month: 1, day: 1, hour: 0, minute: 0, second: 0 }
+ * console.log(result); // Output: { year: 2021, month: 8, day: 23, hour: 0, minute: 0, second: 0 }
+ * 
  */
 export default function toGregorian(jd: number) {
   const jj = ifpos(jd);

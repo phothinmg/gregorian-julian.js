@@ -1,0 +1,13 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "name": "gregorian-julian.js",
+  "darkHighlightTheme": "dark-plus",
+  "favicon": "favicon/favicon-32x32.png",
+  "entryPoints": ["./src/index.ts"],
+  "out": "docs",
+  "plugin": [
+    "typedoc-google-tag-manager-plugin",
+    "typedoc-plugin-extras",
+    "typedoc-plugin-clarity"
+  ]
+}
