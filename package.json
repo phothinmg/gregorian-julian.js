@@ -1,6 +1,6 @@
 {
   "name": "gregorian-julian.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Converting Julian and Gregorian dates to each other",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -10,7 +10,10 @@
     "build": "tsup",
     "doc": "typedoc"
   },
-  "keywords": ["julian", "gregorian"],
+  "keywords": [
+    "julian",
+    "gregorian"
+  ],
   "author": "Pho Thin Maung",
   "homepage": "https://phothinmg.github.io/gregorian-julian.js/",
   "repository": {
