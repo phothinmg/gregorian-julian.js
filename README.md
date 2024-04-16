@@ -43,16 +43,7 @@ const julianDay = calculateJulianDay(2022, 10, 15);
 // Output: 2459867.5
 ```
 
- \begin{align} 
- & c_0 = \lfloor\frac{m - 3}{12}\rfloor \\ 
- & x_4 = j + c_0 \\ 
- & \{x_3, x_2\} = div(x_4, 100) \\ 
- & x_1 = m − 12c_0 − 3 \\
- & a = \lfloor\frac{146097x_3}{4}\rfloor + \lfloor\frac{36525x_2}{100}\rfloor \\ 
- & b = \lfloor\frac{153x_1 + 2}{5}\rfloor + d + 1721119 \\ 
- & \textcolor{green}{J = a + b }
- \end{align}
-
+$$ c_0 = \lfloor \frac{month - 3}{12} \rfloor $$
 
 ---
 
@@ -89,3 +80,5 @@ The negative values of JD, before 1 Jan -4712, are considered experimental.
 ![Branches Coverage Badge](https://raw.githubusercontent.com/phothinmg/gregorian-julian.js/main/docs/coverage/badge-branches.svg "Branches Coverage")
 ![Lines Coverage Badge](https://raw.githubusercontent.com/phothinmg/gregorian-julian.js/main/docs/coverage/badge-lines.svg "Lines Coverage")
 ![Statements Coverage Badge](https://raw.githubusercontent.com/phothinmg/gregorian-julian.js/main/docs/coverage/badge-statements.svg "Statements Coverage")
+
+
