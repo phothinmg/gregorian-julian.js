@@ -1,11 +1,10 @@
 ### Converting Julian and Gregorian dates to each other.
-
-
-
+---
 **_ESM only_**
 
 ##### **_This package assumes use of the Gregorian calendar and only works correctly for dates after 1858._**
 
+[Documentation](https://phothinmg.github.io/gregorian-julian.js/)
 ---
 
 #### Install
@@ -42,8 +41,6 @@ function calculateJulianDay(year, month, day) {
 const julianDay = calculateJulianDay(2022, 10, 15);
 // Output: 2459867.5
 ```
-
-$$ c_0 = \lfloor \frac{month - 3}{12} \rfloor $$
 
 ---
 
